@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ConsoliAds-Mopub-Adapter_Example' do
+  pod 'ConsoliAds-Mopub-Adapter', :path => '../'
+
+  target 'ConsoliAds-Mopub-Adapter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

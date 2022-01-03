@@ -1,0 +1,48 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "a63e1f973865ba650bbe6648217f989aed690c778e509072e4381ad1d0f20343"
+    },
+    {
+      "guid" : "a63e1f973865ba650bbe6648217f989a21ded137e13bbb9a6e2b86de32ed2bd2"
+    },
+    {
+      "guid" : "a63e1f973865ba650bbe6648217f989a5e21054512cf9fd4d84026da43a044ab"
+    },
+    {
+      "guid" : "a63e1f973865ba650bbe6648217f989a00d687eacc9d82512f47366d94d9bd66"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/saira/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/saira/Library/Developer/Xcode/DerivedData/Pods-evntfqioauxpjhaiwonakplcrrru/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/saira/Library/Developer/Xcode/DerivedData/Pods-evntfqioauxpjhaiwonakplcrrru/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

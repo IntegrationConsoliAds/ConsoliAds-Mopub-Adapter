@@ -1,0 +1,27 @@
+PODS:
+  - ConsoliAds-Mopub-Adapter (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ConsoliAds-Mopub-Adapter (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ConsoliAds-Mopub-Adapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsoliAds-Mopub-Adapter: d1d141b6ef81fb7c843a2213b3c56d70ad135406
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 91dcabe8191d8326e60fb395fbf0f6a255d21d5a
+
+COCOAPODS: 1.11.2
