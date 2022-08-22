@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+ConsoliAds-Mopub-Adapter in Pods, no dependencies
+FBSnapshotTestCase in Pods, no dependencies
+Pods-ConsoliAds-Mopub-Adapter_Example in Pods, depends on:
+ConsoliAds-Mopub-Adapter in Pods (explicit)
+Pods-ConsoliAds-Mopub-Adapter_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-ConsoliAds-Mopub-Adapter_Example in Pods (explicit)

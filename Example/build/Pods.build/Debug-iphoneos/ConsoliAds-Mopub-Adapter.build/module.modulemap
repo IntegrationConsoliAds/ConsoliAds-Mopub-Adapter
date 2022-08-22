@@ -1,0 +1,6 @@
+framework module ConsoliAds_Mopub_Adapter {
+  umbrella header "ConsoliAds-Mopub-Adapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
