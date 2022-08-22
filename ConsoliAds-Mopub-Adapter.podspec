@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Mopub-Adapter'
-  s.version          = '5.18.0-1.1'
+  s.version          = '5.18.0-1.2'
   s.summary          = 'This pod is used to get caMopub adapter for mopub ad serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,6 @@ Pod::Spec.new do |s|
 
 s.vendored_frameworks = 'ConsoliAds-Mopub-Adapter/ConsoliAdsMopubAdapter.xcframework'
 s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
-
-s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
-s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
 s.static_framework = true
 
 end
