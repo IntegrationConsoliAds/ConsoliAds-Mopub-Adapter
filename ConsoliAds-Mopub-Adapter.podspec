@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Mopub-Adapter'
-  s.version          = '5.18.0-1.2'
+  s.version          = '5.18.0-1.3'
   s.summary          = 'This pod is used to get caMopub adapter for mopub ad serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
